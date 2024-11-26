@@ -102,3 +102,51 @@ Requirement analysis involves several key activities that ensure the successful 
 Here is the use case diagram for the booking management system:
 
 ![Use Case Diagram](images/alx-booking-uc.drawio.png)
+
+## Acceptance Criteria
+
+### Importance of Acceptance Criteria in Requirement Analysis
+
+Acceptance criteria are essential conditions that a feature must satisfy to be considered complete and acceptable by stakeholders. They serve as a clear and concise definition of what is expected from a feature, providing a shared understanding between the development team and stakeholders. By establishing these criteria early in the development process, teams can:
+
+1. **Clarify Requirements**: Acceptance criteria help clarify the requirements of a feature, reducing ambiguity and ensuring that everyone involved has a common understanding of what needs to be delivered.
+
+2. **Guide Development**: They serve as a guide for developers, helping them understand the specific functionalities and behaviors that need to be implemented.
+
+3. **Facilitate Testing**: Acceptance criteria provide a basis for creating test cases, allowing quality assurance teams to validate that the feature meets the specified requirements before it is delivered.
+
+4. **Enhance Communication**: By documenting acceptance criteria, teams can improve communication and alignment among stakeholders, developers, and testers, ensuring that everyone is on the same page regarding project expectations.
+
+5. **Manage Scope**: They help in managing project scope by defining the boundaries of what will be included in the feature, preventing scope creep and ensuring that only the agreed-upon functionalities are developed.
+
+### Example of Acceptance Criteria for the Checkout Feature
+
+For a Checkout feature in a booking management system, acceptance criteria might include:
+
+1. **User Authentication**:
+
+   - The user must be logged in to access the checkout page.
+
+2. **Booking Summary**:
+
+   - The checkout page must display a summary of the selected booking, including:
+     - Booking date and time
+     - Number of guests
+     - Total cost
+
+3. **Payment Options**:
+
+   - The user must be able to select from at least three payment options (e.g., credit card, PayPal, bank transfer).
+
+4. **Validation**:
+
+   - The system must validate that all required fields are filled out before allowing the user to proceed to payment.
+   - If a required field is missing, an appropriate error message must be displayed.
+
+5. **Confirmation**:
+
+   - After successful payment, the user must receive a confirmation email with the booking details.
+   - The system must redirect the user to a confirmation page displaying a success message and booking reference number.
+
+6. **Cancellation Policy**:
+   - The checkout page must include a link to the cancellation policy, which the user must acknowledge before completing the booking.
