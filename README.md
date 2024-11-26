@@ -96,3 +96,9 @@ Requirement analysis involves several key activities that ensure the successful 
 - **Scalability**: The system should be able to scale horizontally to handle increased traffic.
 - **Usability**: The application should have an intuitive UI/UX, making it easy for users to navigate and perform tasks.
 - **Reliability**: The system should have an uptime of 99.9% and recover quickly from any failures.
+
+### Use Case Diagram
+
+Here is the use case diagram for the booking management system:
+
+![Use Case Diagram](images/alx-booking-uc.drawio.png)
